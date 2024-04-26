@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
-import Event from './Event';
-import Team from './Plear';
+import './App.css';
+// import Users from './users';
+// import Team from './Plear';
+// import ForState from './EventAdd';
+// import Friends from './friends';
+// import Friend from './Friend';
 
 function App() {
   function handleClick(){
@@ -16,8 +19,11 @@ const addTwo=(num)=>{
     <>
    
       <h1>React core concept 2</h1>
-   <Team></Team>
-      <Event></Event>
+      {/* <Users></Users> */}
+      {/* <Friends></Friends>
+     
+    <Team></Team>
+   <ForState></ForState> */}
       <button onClick={handleClick}>Click Me</button>
       <button onClick={()=>{alert('2nd Click')}}>2nd Click</button>
       <button onClick={()=>addTwo(3)}>3rd /click</button>
