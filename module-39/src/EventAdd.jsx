@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 
-export default function ForUseState(){    
+export default function ForState(){    
    
    const [count,setCount]=useState(0)
   

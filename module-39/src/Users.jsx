@@ -10,7 +10,7 @@ export default function Users(){
 
     return (
         <div>
-            <h2>Users :{users.le}</h2>
+            <h2>Users :{users.length}</h2>
         </div>
     )
 }

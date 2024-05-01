@@ -1,0 +1,15 @@
+.design {
+    border: 4px solid skyblue;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.visited {
+    background-color: bisque;
+    color: purple;
+}
+
+.non-visited {
+    background-color: none;
+}
