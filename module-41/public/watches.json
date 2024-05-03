@@ -1,0 +1,26 @@
+[{
+        "id": 1,
+        "name": "Rolex Submariner",
+        "price": 8950
+    },
+    {
+        "id": 2,
+        "name": "Omega Speedmaster",
+        "price": 5300
+    },
+    {
+        "id": 3,
+        "name": "TAG Heuer Carrera",
+        "price": 4200
+    },
+    {
+        "id": 4,
+        "name": "Patek Philippe Nautilus",
+        "price": 34500
+    },
+    {
+        "id": 5,
+        "name": "Seiko Prospex",
+        "price": 700
+    }
+]
