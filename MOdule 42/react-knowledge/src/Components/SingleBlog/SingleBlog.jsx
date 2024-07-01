@@ -15,6 +15,7 @@ const SingleBlog = ({ blog, handleAddBookmark, handleMarkAsRead }) => {
     posted_date,
     hashtags,
   } = blog;
+  console.log(reading_time)
   return (
     <div className="space-y-4 mb-20">
       <img
@@ -56,7 +57,7 @@ const SingleBlog = ({ blog, handleAddBookmark, handleMarkAsRead }) => {
       </p>
       <button
         onClick={() => {
-          handleMarkAsRead(id, reading_time);
+          handleMarkAsRead( reading_time,id);
         }}
         className="text-purple-600 font-bold underline"
       >

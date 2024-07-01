@@ -1,6 +1,8 @@
 import PropTypes from "prop-types"; // ES6
 
 const Bookmark = ({bookmark}) => {
+    console.log(bookmark)
+    
     const {title}=bookmark;
     return (
         <div>

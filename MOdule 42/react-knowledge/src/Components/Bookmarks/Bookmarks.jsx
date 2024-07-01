@@ -2,6 +2,7 @@ import PropTypes from "prop-types"; // ES6
 import Bookmark from "../../Bookmark/Bookmark";
 
 const Bookmarks = ({bookmarks,readingTime}) => {
+ console.log(readingTime)
  
     return (
         <div className="md:w-1/3 max-h-screen">

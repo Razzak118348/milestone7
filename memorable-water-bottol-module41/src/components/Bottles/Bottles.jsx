@@ -14,10 +14,11 @@ const Bottles = () => {
             .then(res => res.json())
             .then(data => setBottles(data))
     }, [])
+    console.log(bottles)
 
     // load cart from local storage
     useEffect(() => {
-        console.log('called the useEffect', bottles.length)
+        // console.log('called the useEffect', bottles.length)
         if (bottles.length) {
             const storedCart = getStoredCart();
             console.log(storedCart, bottles);
